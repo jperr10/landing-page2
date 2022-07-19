@@ -30,6 +30,7 @@ body {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .right {
@@ -88,4 +89,42 @@ button {
     color: #f9faf8;
     background: #3882f6;
     padding: 10px 40px;
+}
+
+.info-section {
+    height: 300px;
+    margin: 50px 150px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info-section-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.box {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.subtext {
+    text-align: center;
+    color: #797d84;
 }
