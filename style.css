@@ -88,7 +88,8 @@ button {
     border-radius: 8px;
     color: #f9faf8;
     background: #3882f6;
-    padding: 10px 40px;
+    font-size: large;
+    padding: 10px 36px;
 }
 
 .info-section {
@@ -150,4 +151,38 @@ button {
     font-size: x-large;
     font-weight: bold;
     color: #1f2937;    
+}
+
+.action-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-content {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    border-radius: 6px;
+}
+
+.plea-top {
+    color: #f9faf8;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.plea-bottom {
+    color: #e5e7eb;
+    font-size: large;
+}
+
+.action-content button {
+    border: solid 2px #f9faf8;
+    padding: 8px 40px;
 }
