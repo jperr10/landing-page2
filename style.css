@@ -92,12 +92,11 @@ button {
 }
 
 .info-section {
-    height: 300px;
+    height: 340px;
     margin: 50px 150px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .info-section-title {
@@ -127,4 +126,28 @@ button {
 .subtext {
     text-align: center;
     color: #797d84;
+}
+
+.quote-section {
+    height: 420px;
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    width: 735px;
+    margin-top: 100px;
+}
+
+.author {
+    margin-left: 390px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #1f2937;    
 }
