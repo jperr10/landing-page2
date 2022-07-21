@@ -7,7 +7,8 @@ body {
     flex-direction: column;
 }
 
-.top-section {
+.top-section
+/* Need to optimize for zoomed out/in */{
     height: 400px;
     background: #1f2937;
     padding-left: 210px;
@@ -185,4 +186,14 @@ button {
 .action-content button {
     border: solid 2px #f9faf8;
     padding: 8px 40px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
