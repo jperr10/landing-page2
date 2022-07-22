@@ -7,17 +7,15 @@ body {
     flex-direction: column;
 }
 
-.top-section
-/* Need to optimize for zoomed out/in */{
-    height: 400px;
+.top-section {
+    height: 420px;
     background: #1f2937;
-    padding-left: 210px;
     padding-top: 16px;
-    padding-right: 210px;
-    padding-bottom: 120px;
+    padding-bottom: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-section, .footer {
@@ -27,6 +25,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    gap: 520px;
 }
 
 .header-logo {
@@ -38,23 +37,24 @@ body {
     display: flex;
     align-items: center;
 }
+
 ul {
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 14px;
+    gap: 18px;
 }
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-size: larger;
 }
 
 .media {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    gap: 80px;
 }
 
 .top-section-content {
@@ -62,13 +62,14 @@ a {
 }
 
 .image {
-    width: 500px;
+    width: 560px;
     color: #f9faf8;
     background: gray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .main-title {
     font-size: 48px;
     font-weight: bolder;
@@ -94,7 +95,7 @@ button {
 }
 
 .info-section {
-    height: 340px;
+    height: 400px;
     margin: 50px 150px 100px;
     display: flex;
     flex-direction: column;
@@ -116,6 +117,9 @@ button {
 
 .info {
     max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .box {
@@ -131,7 +135,7 @@ button {
 }
 
 .quote-section {
-    height: 420px;
+    height: 480px;
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -144,7 +148,7 @@ button {
     font-style: italic;
     color: #1f2937;
     width: 735px;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .author {
@@ -155,7 +159,7 @@ button {
 }
 
 .action-section {
-    height: 350px;
+    height: 390px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +173,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 120px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .plea-top {
@@ -184,12 +188,12 @@ button {
 }
 
 .action-content button {
-    border: solid 2px #f9faf8;
+    border: solid 3px #f9faf8;
     padding: 8px 40px;
 }
 
 .footer {
-    height: 100px;
+    height: 110px;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: large;
